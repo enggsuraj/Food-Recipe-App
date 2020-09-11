@@ -119,4 +119,27 @@ export let recipedata = [
       {step:'Step 2: Pour juice into a glass filled with ice.'},
     ]
     },
+    {
+      title: "Strawberry Ice Cream",
+      ID: 5,
+      emoji: "🍦",
+      stars:4,
+      steps: "Instructions for making this recipe",
+      time:[{prep:"10 mins"},{cook:"60 mins"},{total:"70 mins"},{servings:12}],
+      nutritions:"158.7 calories; protein 3.3g 7% DV; carbohydrates 40.1g 13% DV; fat 0.6g 1% DV; cholesterolmg; sodium 93.4mg 4% DV",
+      about:"Many people consider this type of strawberry ice cream recipe a 'hack' or a 'cheat' because we're skipping the more time-consuming and sometimes temperamental egg-custard step; but even if I didn't want to save time I'd still prefer this method. To be clear, I'm only speaking about this specific flavor of ice cream. For deep, dark chocolate, or butter pecan, I'll take the classic French-style every time. But, for sweet, juicy strawberries, I'm not a big fan of the egginess you get with the traditional method.",
+      time:[{prep:"15 mins"},{cook:"0 mins"},{total:"15 mins"},{servings:1}],
+      ingredient: [
+        { name: "12 ounces fresh strawberries, hulled", isPresent: true, id: uuidv4() },
+        { name: "¾ cup white sugar", isPresent: false, id: uuidv4() },
+        { name: "2 cups heavy whipping cream", isPresent: false, id: uuidv4() },
+        { name: "1 cup milk", isPresent: true, id: uuidv4() },
+        { name: "1 teaspoon vanilla extract", isPresent: true, id: uuidv4() },
+      ],
+      directions:[{step:'Step 1: Place strawberries and sugar in a blender and pulse until pureed; steep for 10 minutes.'},
+      {step:'Step 2: Pour cream, milk, vanilla extract, and salt into strawberry mixture; blend until smooth and slightly thickened, 10 to 15 seconds. Whisk red food color into cream mixture.'},
+      {step:'Step 3: Pour strawberry mixture into the container of an ice cream maker and freeze according to the manufacturer instructions. Transfer ice cream to a sealable container, cover the ice cream with plastic wrap, seal the container, and freeze, 2 hours to overnight.'},
+      {step:'Step 4: Process in an ice cream maker until thick. Immediately transfer to a sealable container, cover with plastic wrap, cover the bowl with a lid and freeze for 2 hours to overnight.
+    }]
+    },
   ];
