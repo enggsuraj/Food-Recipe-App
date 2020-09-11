@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/recipe.css" type="text/css" />
+    <link rel="stylesheet" href="css/ionicons.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/queries.css" type="text/css" />
+    <title>Recipe Edit</title>
+  </head>
+  <body>
+
+    <!-- MAIN CONATAINER -->
+    <div class="container-recipe">
+
+      <h1 id="recipe-name">Recipe name</h1>
+      <p id="steps"></p>
+      <p id="ing-count"></p><br>
+      <h3>Ingredients</h3>
+
+      <!-- INGREDIENTS CONTENT -->
+      <div class="ingredients-content"></div>
+
+      <!-- INGREDIENT INPUT AND ADD BUTTON -->
+      <div class="add-ingredient-box">
+        <input placeholder="Add ingredient" id="add-ingredient"/>
+        <button id="btn-ingredient">Add</button>
+      </div>
+      <hr><br>
+
+      <!-- ADD STEPS  -->
+      <h3>Directions</h3>
+      <div class="directions"></div><hr><br>
+
+      <!-- ADD NUTRITIONALS FACTS -->
+      <h3>Nutrition Fact</h3>
+      <div class="nutritions"></div>
+      <br>
+
+      <!-- NAVIGATION TO HOME -->
+      <a href="index.html">Back</a>
+    </div>
+
+    <!-- JAVASCRIPTS -->
+    <script src="scripts/uuid.js" type="text/javascript"></script>
+    <script src="scripts/recipe.js" type="text/javascript"></script>
+  </body>
+</html>

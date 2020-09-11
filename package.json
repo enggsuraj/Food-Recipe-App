@@ -1,0 +1,17 @@
+{
+  "name": "recipe-app",
+  "version": "1.0.0",
+  "description": "A food recipe app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./app/app.js"
+  },
+  "author": "enggsuraj",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.1.0",
+    "install": "^0.13.0",
+    "uuid": "^8.3.0"
+  }
+}
