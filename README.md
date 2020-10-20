@@ -8,14 +8,24 @@ Link: https://recipeapp-blogtheorem.herokuapp.com/
 
 ![Screenshotdqdw](https://user-images.githubusercontent.com/6918020/92939910-0540ce80-f46c-11ea-9b43-830388df71ed.png)
 
-### Installing
+### Usage
 
 ```
 npm install
 ```
 
-Run it
+Live Server
 
 ```
 npm run start
 ```
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<!-- CONTACT -->
+## Contact
+
+[@blogtheorem](https://www.instagram.com/blogtheorem) - info.blogtheorem@gmail.com
