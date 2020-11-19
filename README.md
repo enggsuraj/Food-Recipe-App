@@ -1,6 +1,6 @@
 # 🥗 Recipe App
 
-Recipe App is a vanilla Javascript based food recipe application where user search for recipe and when it is clicked it get details of recipe like ingredients, steps, nutritions facts etc
+Recipe App is a vanilla Javascript based food recipe application where user search for recipe and when it is clicked it get details of recipe like ingredients, steps, nutritions facts etc.
 
 Link: https://recipeapp-blogtheorem.herokuapp.com/
 
